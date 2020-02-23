@@ -58,21 +58,26 @@ header ul li:nth-of-type(5){
 header ul li a{
     color:#ebccc2;
     text-decoration: none;
+    opacity: 0.6;
     }
 
 header ul li a:hover{
     color:#ebccc2;
+    opacity: 0.6;
     text-decoration: none;
     }
 
 p{
     color: #ebccc2;
     font-size: 0.9em;
+    font-weight: 100;
+    line-height: 2em;
+    opacity: 0.6;
 }
 
 /* <!----------------------- START HAUPTABSCHNITT 1 ----------------------------> */
 h1{
-    height:45vh;
+    height:40vh;
     font-size: 2em;
     display:flex;
     padding: 30px auto;
@@ -96,7 +101,6 @@ h1{
     "deadMan deadMan"
     "deadMan deadMan"
     "pylone Alchemy"
-
      ;
 }
 
