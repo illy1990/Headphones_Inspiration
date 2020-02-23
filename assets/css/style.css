@@ -30,7 +30,7 @@ p{
 /* <!----------------------- ENDE Allgemeinzeug ----------------------------------> */
 /* <!----------------------- START Header ----------------------------------> */
 header{
-    height: 10%;
+    height: 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,8 +72,9 @@ header ul li a{
 
 header ul li a:hover{
     color:#ebccc2;
-    opacity: 0.6;
-    text-decoration: none;
+    opacity: 1;
+    text-decoration: underline;
+    transition-duration: 1.5s;
     }
 /* <!----------------------- Ende Header ----------------------------------> */
 /* <!----------------------- START HAUPTABSCHNITT 1 ----------------------------> */
@@ -152,7 +153,7 @@ footer{
 #ReiterLinks1{
     position: fixed;
     left: 1%;
-    top: 40vh;
+    top: 30vh;
     color:rgb(115, 115, 115);
     display:inline-block;
 }
@@ -170,7 +171,7 @@ footer{
 }
 
 .AeussereKugel{
-    border: 0.5px solid rgb(115, 115, 115);
+    border: 0.5px solid #2e2e2e;
     border-radius: 100000000px;
     padding: 7.2px;
     display: inline-block;
@@ -180,7 +181,7 @@ footer{
 #ReiterLinks2{
     position: fixed;
     left: 4.5%;
-    top: 40vh;
+    top: 30vh;
 }
 #ReiterLinks2 a{
     color:rgb(115, 115, 115);
@@ -190,26 +191,61 @@ footer{
 #ReiterLinks2 a:nth-of-type(1){
     position: fixed;
     left: 4.5%;
-    top: 46.4vh;
+    top: 36.4vh;
 }
 #ReiterLinks2 a:nth-of-type(2){
     position: fixed;
     left: 4.5%;
-    top: 56.4vh;
+    top: 46.4vh;
 }
 #ReiterLinks2 a:nth-of-type(3){
     position: fixed;
     left: 4.5%;
-    top: 66.4vh;
+    top: 56.4vh;
 }
 #ReiterLinks2 a:nth-of-type(4){
     position: fixed;
     left: 4.5%;
-    top: 76.4vh;
+    top: 66.4vh;
 }
 #ReiterLinks2 a:nth-of-type(5){
     position: fixed;
     left: 4.5%;
-    top: 86.4vh;
+    top: 76.4vh;
 }
+
+.Strich{
+    border-left: 1px solid rgb(115, 115, 115);
+    height: 35px;
+      }
+
+#Strich1{
+    position: fixed;
+    left: 2%;
+    top:40vh;
+}
+#Strich2{
+    position: fixed;
+    left: 2%;
+    top:50vh;
+}
+#Strich3{
+    position: fixed;
+    top:60vh;
+    left: 2%;
+}
+#Strich4{
+    position: fixed;
+    top:70vh;
+    left: 2%;
+}
+/* <!----------------------- START HOVER EFFEKTE REITER LINKS SEITE 1--------> */
+#ReiterLinks2 a:nth-of-type(1){
+    color: #fff;
+}
+#AeussereKugel1{
+    border: 0.5px solid #fff;
+}
+
+/* <!----------------------- ENDE HOVER EFFEKTE REITER LINKS ----------------> */
 /* <!----------------------- ENDE Navigationsreiter -------------------------> */
