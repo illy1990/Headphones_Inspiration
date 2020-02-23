@@ -3,6 +3,7 @@
 
 /* #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
 
+/* <!----------------------- START Allgemeinzeug ----------------------------------> */
 body{
     width: 100%;
     height: 90vh;
@@ -15,12 +16,21 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     height: 90vh;
+    position: relative;
 }
 
-/* HEADER */
-
+p{
+    color: #ebccc2;
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 2em;
+    opacity: 0.6;
+    display: inline-block;
+}
+/* <!----------------------- ENDE Allgemeinzeug ----------------------------------> */
+/* <!----------------------- START Header ----------------------------------> */
 header{
-    height: 80px;
+    height: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -54,7 +64,6 @@ header ul li:nth-of-type(5){
     margin-right: 45px;
 }
 
-
 header ul li a{
     color:#ebccc2;
     text-decoration: none;
@@ -66,15 +75,7 @@ header ul li a:hover{
     opacity: 0.6;
     text-decoration: none;
     }
-
-p{
-    color: #ebccc2;
-    font-size: 0.9em;
-    font-weight: 100;
-    line-height: 2em;
-    opacity: 0.6;
-}
-
+/* <!----------------------- Ende Header ----------------------------------> */
 /* <!----------------------- START HAUPTABSCHNITT 1 ----------------------------> */
 h1{
     height:40vh;
@@ -86,6 +87,7 @@ h1{
     align-items: center;
     font-weight: 300;
     line-height: 1.1em;
+    font-weight: lighter;
 }
 /* <!----------------------- ENDE HAUPTABSCHNITT 1 ----------------------------> */
 
@@ -107,29 +109,107 @@ h1{
 #Fliegender_Mann{
     grid-area:  deadMan;
     display:    flex;
-    width: 100%;
+    width:      100%;
 }
 #Pylonen-lautsprecher{
     grid-area:  pylone;
     display:    flex;
-    width:      80%;
-    margin-left: 5%;
+    width:      70%;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 #DesignAlchemy{
     grid-area:  Alchemy;
     display:    flex;
-    width:      80%;
-    margin-right: 5%;
+    width:      70%;
+    margin-right: 20%;
     flex-wrap: wrap;
-
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
+
 h2{
     font-size: 2em;
     display:flex;
     color:#ebccc2;
     font-weight: 300;
     line-height: 1.1em;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+/* <!----------------------- ENDE HAUPTABSCHNITT 2 ----------------------------> */
+/* <!----------------------- START FOOTER -------------------------------------> */
+footer{
+    height: 15%;
+    display: flex;
+}
+/* <!----------------------- ENDE FOOTER -------------------------------------> */
+/* <!----------------------- START Navigationsreiter -------------------------> */
+
+#ReiterLinks1{
+    position: fixed;
+    left: 1%;
+    top: 40vh;
+    color:rgb(115, 115, 115);
+    display:inline-block;
+}
+.InnereKugel{
+    border: 0.5px solid rgb(115, 115, 115);
+    border-radius: 100000000px;
+    padding: 7px;
+    display: inline-block;
+    font-size: 0;
 }
 
-/* <!----------------------- ENDE HAUPTABSCHNITT 2 ----------------------------> */
+.Kugelding{
+    color: rgb(115, 115, 115);
+    padding: 20px;
+}
+
+.AeussereKugel{
+    border: 0.5px solid rgb(115, 115, 115);
+    border-radius: 100000000px;
+    padding: 7.2px;
+    display: inline-block;
+    font-size: 0;
+}
+
+#ReiterLinks2{
+    position: fixed;
+    left: 4.5%;
+    top: 40vh;
+}
+#ReiterLinks2 a{
+    color:rgb(115, 115, 115);
+    text-decoration: none;
+    display: flex;
+}
+#ReiterLinks2 a:nth-of-type(1){
+    position: fixed;
+    left: 4.5%;
+    top: 46.4vh;
+}
+#ReiterLinks2 a:nth-of-type(2){
+    position: fixed;
+    left: 4.5%;
+    top: 56.4vh;
+}
+#ReiterLinks2 a:nth-of-type(3){
+    position: fixed;
+    left: 4.5%;
+    top: 66.4vh;
+}
+#ReiterLinks2 a:nth-of-type(4){
+    position: fixed;
+    left: 4.5%;
+    top: 76.4vh;
+}
+#ReiterLinks2 a:nth-of-type(5){
+    position: fixed;
+    left: 4.5%;
+    top: 86.4vh;
+}
+/* <!----------------------- ENDE Navigationsreiter -------------------------> */
