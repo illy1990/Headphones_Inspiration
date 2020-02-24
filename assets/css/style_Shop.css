@@ -1,0 +1,257 @@
+*{padding: 0; margin: 0}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
+
+/* <!----------------------- START Allgemeinzeug ----------------------------------> */
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Work Sans', ;
+    background-color: #2e2e2e;
+}
+
+#Page5-Supersection{
+    width: 100%;
+    margin-right: 5%;
+    height: 100vh;
+    position: relative;
+}
+
+p{
+    color: #ebccc2;
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 1.5em;
+    opacity: 0.4;
+    display: inline-block;
+}
+
+h2{
+    font-size: 2em;
+    color:#ebccc2;
+    font-weight: 300;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+/* <!----------------------- ENDE Allgemeinzeug ----------------------------------> */
+/* <!----------------------- START Header ----------------------------------> */
+header{
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    top: 35px;
+    left: 50px;
+    position: absolute;
+}
+header ul li {
+    list-style: none;
+    display: inline;
+    font-weight: lighter;
+    font-size: 0.9em;
+}
+
+header ul li:nth-of-type(2){
+    margin-left: 60px;
+    margin-right: 15px;
+}
+header ul li:nth-of-type(3){
+    margin-left: 15px;
+    margin-right: 15px;
+}
+header ul li:nth-of-type(4){
+    margin-left: 15px;
+    margin-right: 60px;
+}
+header ul li:nth-of-type(5){
+    margin-right: 45px;
+}
+
+header ul li a{
+    color:#ebccc2;
+    text-decoration: none;
+    opacity: 0.6;
+    }
+
+header ul li a:hover{
+    color:#ebccc2;
+    opacity: 1;
+    text-decoration: underline;
+    transition-duration: 1.5s;
+    }
+/* <!----------------------- Ende Header ----------------------------------> */
+/* <!----------------------- START HAUPTABSCHNITT 1 ----------------------------> */
+h1{
+    height:40vh;
+    font-size: 2em;
+    display:inline-block;
+    padding: 30px auto;
+    color:#ebccc2;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    line-height: 1.1em;
+    font-weight: lighter;
+}
+/* <!----------------------- ENDE HAUPTABSCHNITT 1 ----------------------------> */
+
+
+/* <!----------------------- START HAUPTABSCHNITT 2 ----------------------------> */
+#Page5-Supersection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#Punkteteppich{
+    max-width: 60%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+#RechteSeite_Kopfhoerer{
+    width: 40%;
+    margin-left: 3em;
+}
+#Page5-Kopfhoerer{
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 28%;
+}
+
+#Page5-Kopfhoerer p:nth-of-type(1){
+    margin-top: 15px;
+}
+
+#Page5-Kopfhoerer p:nth-of-type(2){
+    margin-bottom: 10px;
+}
+
+#Page5-Kopfhoerer img{
+    height: 55vh;
+}
+
+#Page5-Kopfhoerer-Kaufbutton{
+    color: #2e2e2e;
+    font-size: 1em;
+    font-weight: 100;
+    text-decoration: none;
+    border: 1px solid #ebccc2;
+    padding: 5px 20px;
+    background-color: #ebccc2;
+}
+
+
+/* <!----------------------- ENDE HAUPTABSCHNITT 2 ----------------------------> */
+/* <!----------------------- START FOOTER -------------------------------------> */
+
+/* <!----------------------- ENDE FOOTER -------------------------------------> */
+/* <!----------------------- START Navigationsreiter -------------------------> */
+
+#ReiterLinks1_lounger{
+    position: fixed;
+    left: 1%;
+    top: 30vh;
+    color:rgb(115, 115, 115);
+    display:inline-block;
+}
+.InnereKugel{
+    border: 0.5px solid rgb(115, 115, 115);
+    border-radius: 100000000px;
+    padding: 7px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.Kugelding{
+    color: rgb(115, 115, 115);
+    padding: 20px;
+}
+
+.AeussereKugel{
+    border: 0.5px solid #2e2e2e;
+    border-radius: 100000000px;
+    padding: 7.2px;
+    display: inline-block;
+    font-size: 0;
+}
+
+#ReiterLinks2_lounger{
+    position: fixed;
+    left: 4.5%;
+    top: 30vh;
+}
+#ReiterLinks2_lounger a{
+    color:rgb(115, 115, 115);
+    text-decoration: none;
+    display: flex;
+}
+#ReiterLinks2_lounger a:nth-of-type(1){
+    position: fixed;
+    left: 4.5%;
+    top: 36.4vh;
+}
+#ReiterLinks2_lounger a:nth-of-type(2){
+    position: fixed;
+    left: 4.5%;
+    top: 46.4vh;
+}
+#ReiterLinks2_lounger a:nth-of-type(3){
+    position: fixed;
+    left: 4.5%;
+    top: 56.4vh;
+}
+#ReiterLinks2_lounger a:nth-of-type(4){
+    position: fixed;
+    left: 4.5%;
+    top: 66.4vh;
+}
+#ReiterLinks2_lounger a:nth-of-type(5){
+    position: fixed;
+    left: 4.5%;
+    top: 76.4vh;
+}
+
+.Strich{
+    border-left: 1px solid rgb(115, 115, 115);
+    height: 35px;
+      }
+
+#Strich1{
+    position: fixed;
+    left: 2%;
+    top:40vh;
+}
+#Strich2{
+    position: fixed;
+    left: 2%;
+    top:50vh;
+}
+#Strich3{
+    position: fixed;
+    top:60vh;
+    left: 2%;
+}
+#Strich4{
+    position: fixed;
+    top:70vh;
+    left: 2%;
+}
+/* <!----------------------- START HOVER EFFEKTE REITER LINKS SEITE 1--------> */
+#ReiterLinks2 a:nth-of-type(5){
+    color: #fff;
+}
+#AeussereKugel5{
+    border: 0.5px solid #fff;
+}
+
+/* <!----------------------- ENDE HOVER EFFEKTE REITER LINKS ----------------> */
+/* <!----------------------- ENDE Navigationsreiter -------------------------> */
