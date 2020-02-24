@@ -11,7 +11,7 @@ body{
     background-color: #2e2e2e;
 }
 
-#Page2-Supersection{
+#Page3-Supersection{
     width: 100%;
     margin-right: 5%;
     height: 100vh;
@@ -106,18 +106,18 @@ h1{
 
 
 /* <!----------------------- START HAUPTABSCHNITT 2 ----------------------------> */
-#Page2-Supersection{
+#Page3-Supersection{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-#Bild_Stuhl{
+#Bild-SpeakerSpeaker{
     max-width: 60%;
     object-fit: cover;
     margin: 0;
     padding: 0;
 }
-#LinkeSeite{
+#RechteSeite_Speaker{
     width: 40%;
     margin-left: 3em;
     align-items: center;
@@ -219,10 +219,10 @@ h1{
     left: 2%;
 }
 /* <!----------------------- START HOVER EFFEKTE REITER LINKS SEITE 1--------> */
-#ReiterLinks2 a:nth-of-type(2){
+#ReiterLinks2 a:nth-of-type(3){
     color: #fff;
 }
-#AeussereKugel2{
+#AeussereKugel3{
     border: 0.5px solid #fff;
 }
 
