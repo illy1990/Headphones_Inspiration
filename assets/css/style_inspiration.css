@@ -84,43 +84,99 @@ header ul li a:hover{
     transition-duration: 1.5s;
     }
 /* <!----------------------- Ende Header ----------------------------------> */
-/* <!----------------------- START HAUPTABSCHNITT 1 ----------------------------> */
-h1{
-    height:40vh;
-    font-size: 2em;
-    display:flex;
-    padding: 30px auto;
+/* <!----------------------- START GENERELLES ZEUG, Zeug von unterm Video----> */
+h3{
+    font-size: 1em;
     color:#ebccc2;
-    justify-content: center;
-    align-items: center;
     font-weight: 300;
-    line-height: 1.1em;
     font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
 }
-/* <!----------------------- ENDE HAUPTABSCHNITT 1 ----------------------------> */
+h2{
+    font-size: 2em;
+    color:#ebccc2;
+    font-weight: 300;
+    font-weight: lighter;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+}
+
+#DreiButtons{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#DreiButtons div{
+    color:#ebccc2;
+    border: 1px solid #ebccc2;
+    padding: 5px 10px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.AbsatzNachUnten{margin-bottom: 50px;}
+
+/* <!----------------------- ENDE START GENERELLES ZEUG, Zeug von unterm Video----> */
 
 
-/* <!----------------------- START HAUPTABSCHNITT 2 ----------------------------> */
+/* <!----------------------- START HAUPTABSCHNITT ----------------------------> */
 #Page1-Übersicht-FliegenderMann-DesignAlchemy{
     display: grid;
     width: 70%;
     grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    grid-gap: 0.5em;
+    grid-template-rows: auto auto;
+    grid-gap: 0em;
     grid-template-areas:
     "VIDEO VIDEO"
-
+    "TextUnterVideo TextUnterVideo"
+    "Haupt3 Haupt3"
+    "Haupt4 Haupt4"
      ;
 }
+#Hauptschnitt3{
+    grid-area: Haupt3;
+    display: flex;
+}
+#Hauptschnitt4{
+    grid-area: Haupt4;
+    flex-direction: row-reverse;
+    display:flex;
+}
 
+#Hauptschnitt3-Text{
+    margin:         0 20px;
+    margin-bottom:  2em;
+}
+#Hauptschnitt4-Text{
+    margin:         0 20px;
+    margin-bottom:  2em;
+}
+/* <!----------------------- START WORKS PLEASE IGNORE  ----------------------> */
 #Haupt1_Gerippter_Lautsprecher{
     grid-area: VIDEO;
     width: 100%;
     margin-top: 5%;
 }
 
+#ZweitePageINSPIRATION{
+    grid-area: TextUnterVideo;
+    width: 100%;
+    height: 40vh;
+    margin-top: 20vh;
+}
 
-/* <!----------------------- ENDE HAUPTABSCHNITT 2 ----------------------------> */
+#Hauptschnitt3-Bild{
+    object-fit: contain;
+}
+#Hauptschnitt4-Bild{
+    object-fit: contain;
+}
+/* <!----------------------- ENDE WORKS PLEASE IGNORE  ----------------------> */
+
+/* <!----------------------- ENDE HAUPTABSCHNITT ----------------------------> */
 /* <!----------------------- START FOOTER -------------------------------------> */
 footer{
     height: 15%;
