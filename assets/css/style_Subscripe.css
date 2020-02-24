@@ -246,11 +246,8 @@ h1{
     left: 2%;
 }
 /* <!----------------------- START HOVER EFFEKTE REITER LINKS SEITE 1--------> */
-#ReiterLinks2_lounger a:nth-of-type(5){
+#Subscribebutton a{
     color: #fff;
-}
-#AeussereKugel5{
-    border: 0.5px solid #fff;
 }
 
 /* <!----------------------- ENDE HOVER EFFEKTE REITER LINKS ----------------> */
